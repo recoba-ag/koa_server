@@ -1,0 +1,19 @@
+{
+  "name": "koa_server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "create_db": "node ./configs/creating_db",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "koa": "^2.8.2",
+    "koa-router": "^7.4.0",
+    "koa-logger": "^3.2.1",
+    "koa-bodyparser": "^4.2.1",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
